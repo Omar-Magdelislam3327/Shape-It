@@ -1,0 +1,813 @@
+@media(max-width:768px){
+    header{
+        position: relative;
+    }
+    header nav{
+        width: 100%;
+        
+        
+    }
+    .navbar-toggler-icon{
+        color: var(--primaryColor);
+    }
+    .home{
+        overflow: hidden;
+        width: 100%;
+    }
+    .home .layout{
+        overflow: hidden;
+    }
+
+    .home .layout .container{
+        width: 95%;
+        padding-top: 100px;
+
+    }
+    .home .layout .container .logo-home{
+        display: none;
+    }
+    .welcome{
+        height: 40vh;
+    }
+    .main1{
+        width: 95%;
+        margin: auto;
+        padding-top: 260px;
+        padding-bottom: 80px;
+        & .container{
+            & .about-image{
+                display: none;
+            }
+        }
+    }
+    .main2{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        & .layout .container .title h2{
+            width: 100%;
+            font-size: 35px;
+
+        }
+        & .layout .container .title .btn{
+            margin: 30px;
+        }
+        & .content .cards{
+            gap: 15px;
+        }
+        & .content .cards .card{
+            padding: 5px;
+            width: 80%;
+            margin: auto;
+
+            
+        }
+    }
+    .main3{
+        padding-top: 100px;
+        width: 95%;
+        & .container .members{
+            flex-wrap: wrap;
+            
+        }
+        & .container .title{
+            & h5{
+                font-size: 20px;
+                
+                
+            }
+            & h2{
+                font-size: 30px;
+                
+            }
+        }
+    }
+    .main3 .container .members .card1:hover{
+        transform: scale(1.1) translateY(-20px);
+    }
+    .main3 .container .members .card2:hover{
+        transform: scale(1.1) translateY(-20px);
+    }
+    .main3 .container .members .card3:hover{
+        transform: scale(1.1) translateY(-20px);
+    }
+    #choose{
+        & .rows{
+            & div{
+                width: 50%;
+                margin: auto;
+            }
+        }
+    }
+    .main4 .container{
+        padding: 10px;
+        flex-wrap: wrap;
+        & h2{
+            width: 90%;
+            margin: auto;
+            text-align: center;
+        }
+        & button{
+            margin-top: 10px;
+        }
+    }
+    .main5{
+        width: 85%;
+        margin: auto;
+        & .title{
+            & h2{
+                width: 60%;
+            }
+        }
+    }
+    .main6 .container .cards{
+        flex-wrap: wrap;
+        & .card{
+            margin-bottom: 24px;
+        }
+    }
+    footer{
+        width: 100%;
+        margin-top: 50px;
+        & .social{
+            & i{
+                font-size: 20px;
+                padding: 5px;
+            }
+        }
+        & .copy p{
+            font-size: 12px;
+        }
+        & .container{
+            flex-wrap: wrap;
+            padding-left: 10px;
+            & .row1{
+                width: 40%;
+                /* margin-right: 70px; */
+                & h2{
+                    font-size: 12px;
+                }
+                & h4{
+                    font-size: 15px;
+                    
+                }
+            }
+            & .row2{
+                width: 40%;
+
+                /* margin-right: 70px; */
+                & h2{
+                    font-size: 12px;
+                }
+                & h4{
+                    font-size: 15px;
+                    margin-bottom: 10px;
+                    width: 100%;
+                    
+                }
+            }
+            & .row3{
+                width: 40%;
+                margin-top: 20px;
+                /* margin-right: 70px; */
+                & h2{
+                    font-size: 12px;
+                }
+                & h4{
+                    font-size: 15px;
+                    padding: 6px;
+                    width: 100%;
+                }
+            }
+            
+    }
+    }
+}
+@media(max-width:576px){
+    header nav{
+        width: 100%;
+        
+    }
+    .navbar-toggler-icon{
+        color: var(--primaryColor);
+    }
+    .navbar-toggler{
+        outline: none;
+    }
+    .home{
+        overflow: hidden;
+        width: 100%;
+    }
+    .home .layout{
+        overflow: hidden;
+    }
+
+    .home .layout .container{
+        width: 95%;
+        padding-top: 100px;
+
+    }
+    .home .layout .container .logo-home{
+        display: none;
+    }
+    .home .layout .container .text{
+        & h2{
+            width: 60%;
+            font-size: 55px;
+        }
+        & h4{
+            font-size: 25px;
+        }
+    }
+    .welcome{
+        height: 45vh;
+        
+    }
+    .welcome .container{
+        & .title h2{
+        width: 90%;
+        margin: auto;
+        }
+        & .cards{
+            & .card{
+                & i{
+                    font-size: 2.2em;
+                }
+                & button{
+                    padding: 2px;
+                    font-size: 10px;
+                }
+                & h5{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .main1{
+        width: 95%;
+        margin: auto;
+        padding-bottom: 20px;
+        padding-top: 350px;
+        & .container{
+            & .about-image{
+                display: none;
+            }
+            & .text{
+                margin-top: 100px;
+                & h5{
+                font-size: 16px;
+                
+                
+                }
+                & h1{
+                    
+                    font-size: 25px;
+                    
+                    
+                }
+        }
+    }
+    .main2{
+        
+        margin-bottom: 20px;
+        & .layout .container .title h2{
+            width: 100%;
+            font-size: 35px;
+
+        }
+        & .layout .container .title .btn{
+            margin: 30px;
+        }
+        & .content .cards .card{
+            padding: 5px;
+            width: 80%;
+            margin: auto;
+            
+        }
+    }
+    
+    .main3{
+        padding-top: 100px;
+        width: 95%;
+        & .container .title{
+            & h5{
+                font-size: 20px;
+                
+                
+            }
+            & h2{
+                font-size: 40px;
+                
+            }
+        }
+    }
+    .main3  .container .members{
+        flex-wrap: wrap;
+        & .card1{
+            margin-top: 10px;
+        }
+        & .card2{
+            margin-top: 70px;
+        }
+        & .card3{
+            margin-top: 70px;
+        }
+    }
+    
+    .main3 .container .members .card1:hover{
+        transform: scale(1.1) translateY(-20px);
+    }
+    .main3 .container .members .card2:hover{
+        transform: scale(1.1) translateY(-20px);
+    }
+    .main3 .container .members .card3:hover{
+        transform: scale(1.1) translateY(-20px);
+    }
+    .main4 .container{
+        padding: 20px;
+        flex-wrap: wrap;
+        
+        & button{
+            margin-top: 10px;
+        }
+    }
+    .main4 .container .text h2{
+        width: 95%;
+        text-align: center;
+    }
+    .main4 .container button{
+        margin-left: 50px; 
+    }
+    #choose{
+        & .rows{
+            & .carde{
+                width: 80%;
+                margin: auto;
+            }
+        }
+    }
+    .main5{
+        width: 80%;
+        margin: auto;
+        & .title{
+            & h5{
+                color: var(--primaryColor);
+                font-size: 24px;
+                font-weight: 300;
+                margin-left: 72px;
+                margin-bottom: 10px;
+            }
+            & h2{
+                width: 70%;
+                font-size: 45px;
+                color: #2c234d;
+                font-weight: 900;
+    
+            }
+        }
+        & .container{
+            display: flex;
+            justify-content: space-between;
+            & .client-image>img{
+                width: 300px;
+                margin-top: 100px;
+            }
+            & .text{
+                margin-top: 100px;
+                margin-left: 10px;
+                & p{
+                    margin-top: 30px;
+                    margin-left: 20px;
+                    margin-bottom: 10px;
+                    width: 80%;
+                    color: gray;
+                }
+                & h4{
+                    font-size: 20px;
+                    margin: 10px 0px;
+                    font-weight: 700;
+                }
+                & h6{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .main6 .container .cards{
+        flex-wrap: wrap;
+        & .card{
+            margin-bottom: 24px;
+            width: 60%;
+            margin: auto;
+            padding: 25px;
+        }
+    }
+    footer{
+        width: 100%;
+        margin-top: 50px;
+        & .social{
+            & i{
+                font-size: 15px;
+            }
+        }
+        & .container{
+            flex-wrap: wrap;
+            padding-left: 10px;
+            & .row1{
+                width: 20%;
+                /* margin-right: 70px; */
+                & h2{
+                    font-size: 12px;
+                }
+                & h4{
+                    font-size: 15px;
+                    padding: 6px;
+                }
+            }
+            & .row2{
+                width: 20%;
+
+                /* margin-right: 70px; */
+                & h2{
+                    font-size: 12px;
+                }
+                & h4{
+                    font-size: 15px;
+                    margin-bottom: 10px;
+                    width: 100%;
+                    padding: 6px;
+                }
+            }
+            & .row3{
+                width: 20%;
+
+                /* margin-right: 70px; */
+                & h2{
+                    font-size: 12px;
+                }
+                & h4{
+                    font-size: 15px;
+                    
+                    width: 100%;
+                }
+            }
+            
+    }
+    }
+
+}
+}
+@media(max-width:250px){
+    header nav{
+        width: 100%;
+        
+    }
+    .navbar-toggler-icon {
+        font-size: 20px !important;
+    }
+    header nav .container .navbar-brand{
+        
+        font-size: 20px !important;
+        
+    }
+    .home{
+        overflow: hidden;
+        width: 100%;
+    }
+    .home .layout{
+        overflow: hidden;
+    }
+
+    .home .layout .container{
+        width: 95%;
+        padding-top: 100px;
+
+    }
+    .home .layout .container .logo-home{
+        display: none;
+    }
+    .home .layout .container .text{
+        & h2{
+            width: 60%;
+            font-size: 45px;
+        }
+        & h4{
+            font-size: 20px;
+        }
+    }
+    .welcome{
+        height: 45vh;
+        
+    }
+    .welcome .container{
+        & .title h2{
+        width: 90%;
+        margin: auto;
+        font-size: 40px;
+        }
+        & .cards{
+            & .card{
+                & i{
+                    font-size: 2.2em;
+                }
+                & button{
+                    padding: 2px;
+                    font-size: 10px;
+                }
+                & h5{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .main1{
+        width: 95%;
+        margin: auto;
+        padding-bottom: 20px;
+        padding-top: 350px;
+        & .container{
+            & .about-image{
+                display: none;
+            }
+            & .text{
+                margin-top: 100px;
+                & h5{
+                font-size: 16px;
+                }
+                & h1{
+                    font-size: 25px;
+                }
+                & button{
+                    font-size: 15px;
+                    padding: 5px 10px;
+                }
+        }
+    }
+}
+    .main2{
+        margin-bottom: 20px;
+        & .layout .container .title{
+            & h2{
+                width: 100%;
+                font-size: 21px;
+            }
+            & h6{
+                font-size: 15px;
+            }
+        }
+        & .layout .container .title .btn{
+            margin: 30px;
+        }
+        & .content .cards .card{
+            padding: 5px;
+            width: 80%;
+            margin: auto;
+            & i{
+                font-size: 35px;
+            }
+            & h5 {
+                font-size: 21px;
+            }
+            & p {
+                font-size: 12px;
+            }
+            
+        }
+    }
+
+    
+    .main3{
+        padding-top: 100px;
+        width: 95%;
+        & .container .title{
+            & h5{
+                font-size: 15px;
+                
+                
+            }
+            & h2{
+                font-size: 24px;
+                
+            }
+        }
+    }
+    .main3  .container .members{
+        flex-wrap: wrap;
+        & .card{
+            & img{
+                width: 105px;
+                
+            }
+            & h3{
+                text-align: center;
+                font-size: 15px;
+            }
+            & h4{
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 14px;
+                text-wrap: wrap;
+            }
+        }
+        }
+        
+    
+    
+    .main3 .container .members .card1:hover{
+        transform: scale(1.1) translateY(-20px);
+    }
+    .main3 .container .members .card2:hover{
+        transform: scale(1.1) translateY(-20px);
+    }
+    .main3 .container .members .card3:hover{
+        transform: scale(1.1) translateY(-20px);
+    }
+    .main4 .container{
+        padding: 20px;
+        flex-wrap: wrap;
+        & button{
+            margin-top: 10px;
+        }
+    }
+    .main4 .container .text h2{
+        width: 95%;
+        text-align: center;
+    }
+    .main4 .container button{
+        margin-left: 50px; 
+    }
+    #choose{
+        & .title{
+            & h2 {
+                font-size: 32px;
+            }
+        }
+        & .rows{
+            & .carde{
+                width: 80%;
+                margin: auto;
+                & i{
+                    font-size: 50px;
+                }
+                & h5{
+                    color: white;
+                    margin: 20px 0px;
+                    font-weight: 700;
+                    font-size: 14px;
+                }
+                & p{
+                    font-size: 12px;
+                }
+                & img{
+                    width: 66px;
+                }
+            }
+        }
+    }
+    .main5{
+        width: 90%;
+        margin: auto;
+        & .title{
+            & h5{
+                color: var(--primaryColor);
+                font-size: 20px;
+                font-weight: 300;
+                margin-left: 72px;
+                margin-bottom: 10px;
+            }
+            & h2{
+                width: 70%;
+                font-size: 40px;
+                color: #2c234d;
+                font-weight: 900;
+    
+            }
+        }
+        & .container{
+            display: flex;
+            justify-content: space-between;
+            & .cards .card{
+                padding: 10px;
+                background-color: whitesmoke;
+                & p{
+                    color: gray;
+                    
+                }
+                & .info{
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                    & img{
+                        height: 100px;
+                        width: 100px;
+                    }
+                    & .name{
+                        text-align: center;
+                        margin-top: 20px;
+                        h5{
+                            color: var(--primaryColor);
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    .main6 {
+        & .container{
+            & .title{
+                & h2{
+                    font-size: 30px;
+                }
+            }
+            & .crds .card{
+                padding: 20px;
+                & h2{
+                    text-align: center;
+                    font-size: 20px;
+                }
+                & h3{
+                    font-size: 0.5em;
+                    padding-top: 0.5em;
+                    height: 3em;
+                    line-height: 1.3em;
+                    margin-bottom: 1.85em;
+                    
+                }
+                & p{
+                    font-size: 0.7em;
+                    line-height: 1.65em;
+                    padding: 0.2em;
+                    margin-bottom: 0.65em;
+                    text-align: center;
+                }
+                & button{
+                /* padding: 10px 20px; */
+                font-size: 10px;
+                
+                }
+            }
+        }
+    }
+    .main6 .container .cards{
+        flex-wrap: wrap;
+        & .card{
+            margin-bottom: 24px;
+            width: 70%;
+            margin: auto;
+        }
+    }
+    footer{
+        width: 100%;
+        margin-top: 50px;
+        & .social{
+            & i{
+                font-size: 15px;
+            }
+        }
+        & .container{
+            flex-wrap: wrap;
+            padding-left: 10px;
+            & .row1{
+                width: 40%;
+                /* margin-right: 70px; */
+                & h2{
+                    font-size: 8px;
+                }
+                & h4{
+                    font-size: 10px;
+                    padding: 6px;
+                }
+            }
+            & .row2{
+                width: 40%;
+
+                /* margin-right: 70px; */
+                & h2{
+                    font-size: 8px;
+                }
+                & h4{
+                    font-size: 10px;
+                    margin-bottom: 10px;
+                    width: 100%;
+                    padding: 6px;
+                }
+            }
+            & .row3{
+                width: 40%;
+
+                /* margin-right: 70px; */
+                & h2{
+                    font-size: 8px;
+                }
+                & h4{
+                    font-size: 10px;
+                    
+                    width: 100%;
+                }
+            }
+            
+    }
+    }
+
+}
